@@ -86,7 +86,7 @@ export default function Home() {
             {/* 3. Subheadline */}
             <motion.p 
               variants={staggerItem}
-              className="text-slate-700 text-base sm:text-lg md:text-xl max-w-2xl mb-8 font-medium leading-relaxed drop-shadow-sm"
+              className="text-slate-50 text-base sm:text-lg md:text-xl max-w-2xl mb-8 font-medium leading-relaxed drop-shadow-sm"
             >
               {brand.description}
             </motion.p>

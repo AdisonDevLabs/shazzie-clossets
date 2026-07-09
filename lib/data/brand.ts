@@ -68,7 +68,7 @@ export const brand = {
     }
   },
 
-  whatsappNumber: "254796784572",
+  whatsappNumber: "254714363230",
   whatsappMessage: {
     general:
       "Hello Shazzie Closets & Households,\n\nI would like to place an order.\n\nItem Name/Screenshot:\n\nSize:\n\nDelivery Location:\n\nPlease confirm availability. Thank you",

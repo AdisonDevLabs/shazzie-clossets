@@ -21,7 +21,7 @@ export const brand = {
     badge: "Welcome to Shazzie Closets & Households ✨",
     headlineTop: "LETS GLAM",
     headlineHighlight: "YOUR HOME",
-    backgroundImage: "/background-image.jpg",
+    backgroundImage: "/7.jpg",
     ctaPrimary: "Order on WhatsApp",
     ctaSecondary: "Shop Collection",
   },

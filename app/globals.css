@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --theme-primary: #1D4ED8;
+  --theme-primary-hover: #1E40AF;
+  --theme-accent: #1E40AF;
+  --theme-bg-dark: #F8FAFC;
+  --theme-bg-card: #FFFFFF;
+}
+
+@theme {
+  /* Fonts */
+  --font-sans: var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+  --font-display: var(--font-display, ui-sans-serif, system-ui, sans-serif);
+  --font-poppins: var(--font-poppins, ui-sans-serif, system-ui, sans-serif);
+
+  /* Custom Colors */
+  --color-brand-primary: var(--theme-primary);
+  --color-brand-hover: var(--theme-primary-hover);
+  --color-brand-accent: var(--theme-accent);
+  --color-brand-dark: var(--theme-bg-dark);
+  --color-brand-card: var(--theme-bg-card);
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+}
